@@ -15,5 +15,7 @@ submitButton.addEventListener('click', function(e) {
     localStorage.setItem('blogData', JSON.stringify(blogData));
 });
 
-
+document.getElementById('submit').onclick = function () { 
+    location.href = "blog.html" 
+}
 
