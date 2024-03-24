@@ -3,8 +3,13 @@ const title = document.querySelector('blog-title');
 const content = document.querySelector('#blog-content');
 const submitButton = document.querySelector('#submit');
 
-const blogData = {
-    user: user.value.trim(),
-    title: title.value.trim(),
-    content: content.value.trim(),
-};
+submitButton.addEventListener('click', function(e) {
+    e.preventDefault();
+
+    const blogData = {
+        user: user.value.trim(),
+        title: title.value.trim(),
+        content: content.value.trim(),
+    };
+})
+
