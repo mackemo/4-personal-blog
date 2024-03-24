@@ -11,5 +11,9 @@ submitButton.addEventListener('click', function(e) {
         title: title.value.trim(),
         content: content.value.trim(),
     };
-})
+
+    localStorage.setItem('blogData', JSON.stringify(blogData));
+});
+
+
 
