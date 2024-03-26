@@ -1,5 +1,5 @@
 const user = document.querySelector('#username');
-const title = document.querySelector('blog-title');
+const title = document.querySelector('#blog-title');
 const content = document.querySelector('#blog-content');
 const submitButton = document.querySelector('#submit');
 
@@ -12,8 +12,17 @@ submitButton.addEventListener('click', function(e) {
         content: content.value.trim(),
     };
 
-    localStorage.setItem('blogData', JSON.stringify(blogData));
+    if (user.value === "" || title.value === "" || content.value === "") {
+        alert("Please complete form");
+    } else {
+        localStorage.setItem('blogData', JSON.stringify(blogData));
+        location.href = "blog.html"; 
+    }   
 });
 
+
+
+
+    
 
 
