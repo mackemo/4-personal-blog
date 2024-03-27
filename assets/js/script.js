@@ -6,7 +6,7 @@ const submitButton = document.querySelector('#submit');
 submitButton.addEventListener('click', function(e) {
     e.preventDefault();
 
-    const blogData = {
+    const blogPost = {
         user: user.value.trim(),
         title: title.value.trim(),
         content: content.value.trim(),
@@ -15,14 +15,7 @@ submitButton.addEventListener('click', function(e) {
     if (user.value === "" || title.value === "" || content.value === "") {
         alert("Please complete form");
     } else {
-        localStorage.setItem('blogData', JSON.stringify(blogData));
+        localStorage.setItem('blogPost', JSON.stringify(blogPost));
         location.href = "blog.html"; 
-    }   
+    }  
 });
-
-
-
-
-    
-
-
