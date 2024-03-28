@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.side {
+    float: left;
+    width: 50%;
+}
+
+.main {
+    float: right;
+    width: 50%;
+    background-color: rgb(158, 158, 218);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-header {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    background-color: rgb(158, 158, 218);
+}
+
+.form {
+    color: white;
+}
+
+#submit {
+    background-color: rgb(36, 36, 124);
+    color: beige;
+}
