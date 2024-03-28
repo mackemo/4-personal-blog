@@ -4,9 +4,8 @@
 
 The fourth challenge assignment from a bootcamp where the task was to create a two-page website from scratch. The website allows users to input blog content and view blog posts. 
 
-<img src=/>
-<img src=/>
-<img src=/>
+<img src="./assets/images/image.png"/>
+<img src="./assets/images/image-1.png"/>
 
 
 ## Process
