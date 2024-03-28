@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog posts</title>
+    <link rel="stylesheet" href="./assets/css/reset.css"/>
     <link rel="stylesheet" href="./assets/css/blog.css" />
 </head>
 
 <body>
-    <div class="container">
-        <h2>Posts Page</h2>
-        <div>
-            <label>
-                <input type="checkbox" id="toggle">
-            </label>
+    <div>
+        <div class="top-section">
+            <h2 class="header">Posts Page</h2>
         </div>
-        <div>
+        <label id="toggle">
+            <input type="checkbox">
+        </label>
+        <div class="container">
             <ul id ="posts-list"></ul>
         </div>
         <button id="back-button">Back</button>
