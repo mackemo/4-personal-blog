@@ -19,21 +19,19 @@ backButton.addEventListener('click', function() {
     location.href = "index.html"; 
 })
 
-
-const post = JSON.parse(localStorage.getItem('blogPost')) || [];
+const posts = JSON.parse(localStorage.getItem('blogPosts')) || [];
 postsList.innerHTML = '';
 
-const postLi = document.createElement('li');
+for (let i = 0; i < posts.length; i++) {
+    const post = posts[i];
+    const postLi = document.createElement('li');
     postLi.innerHTML = `
         <h3>${post.title}</h3>
         <p>${post.content}</p>
         <p>${post.user}</p>
     `;
-    postsList.appendChild(postLi);
-
-
-
-
+postsList.appendChild(postLi);
+}
 
 
 

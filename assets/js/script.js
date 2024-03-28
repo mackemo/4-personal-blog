@@ -12,10 +12,12 @@ submitButton.addEventListener('click', function(e) {
         content: content.value.trim(),
     };
 
-    if (user.value === "" || title.value === "" || content.value === "") {
+    if (blogPost.user === "" || blogPost.title === "" || blogPost.content === "") {
         alert("Please complete form");
     } else {
-        localStorage.setItem('blogPost', JSON.stringify(blogPost));
+        const oldPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
+        oldPosts.push(blogPost);
+        localStorage.setItem('blogPosts', JSON.stringify(oldPosts));
         location.href = "blog.html"; 
     }  
 });
