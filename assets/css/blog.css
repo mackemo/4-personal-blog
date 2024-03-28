@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing: border-box;
 }
-
+/*Top header*/
 .top-section {
     display: flex;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -11,7 +11,7 @@
     background-color: rgb(158, 158, 218);
     color: rgb(15, 15, 54);
 }
-
+/*Toggle button and text*/
 #toggle {
     position: relative;
     display: inline-block;
@@ -23,7 +23,7 @@
     font-size: 10px;
     color: rgb(131, 125, 125);
 }
-  
+/*Blog posts*/  
 .container {
     margin: 20px;
     padding: 10px;
@@ -48,7 +48,7 @@
     color: grey;
     font-size: 12px;
 }
-
+/*Light/dark mode for toggle button*/
 .light {
     background-color: white;
     color: rgb(49, 48, 48);

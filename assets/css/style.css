@@ -4,7 +4,7 @@
     box-sizing: border-box;
     text-align: center;
 }
-
+/*Left side of page with image and text*/
 .side {
     float: left;
     width: 50%;
@@ -29,7 +29,7 @@
 #img {
     width: 76%;
 }
-
+/*Right side of page with form and submit button*/
 .main {
     float: right;
     width: 50%;
@@ -54,7 +54,7 @@
     background-color: rgb(36, 36, 124);
     color: beige;
 }
-
+/*Responsive to mobile phones*/
 @media screen and (max-width: 599px) {
     .container {
         flex-direction: column;
