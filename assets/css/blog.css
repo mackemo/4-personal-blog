@@ -15,8 +15,13 @@
 #toggle {
     position: relative;
     display: inline-block;
-    width: 50px;
+    width: 200px;
     height: 20px;
+}
+
+.toggle-header {
+    font-size: 10px;
+    color: rgb(131, 125, 125);
 }
   
 .container {
