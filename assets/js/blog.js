@@ -19,11 +19,11 @@ backButton.addEventListener('click', function() {
     location.href = "index.html"; 
 })
 //Turning local storage into objects to display on page//
-const posts = JSON.parse(localStorage.getItem('blogPosts')) || [];
+const oldPosts = JSON.parse(localStorage.getItem('blogPosts')) || [];
 postsList.innerHTML = '';
 //For loop displaying each blog post on page//
-for (let i = 0; i < posts.length; i++) {
-    const post = posts[i];
+for (let i = 0; i < oldPosts.length; i++) {
+    const post = oldPosts[i];
     const postLi = document.createElement('li');
     postLi.innerHTML = `
         <h4>${post.title}</h4>
@@ -32,4 +32,5 @@ for (let i = 0; i < posts.length; i++) {
     `;
 postsList.appendChild(postLi);
 }
+
 

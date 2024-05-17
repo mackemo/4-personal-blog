@@ -4,6 +4,18 @@
 
 The fourth challenge assignment from a bootcamp where the task was to create a two-page website from scratch. The website allows users to input blog content and view blog posts. 
 
+## Table of Content
+  -[Description](#Description)
+  -[Process](#Process)
+  -[Links](#Links)
+  -[Installation](#Installation)
+  -[Usage](#Usage)
+  -[Licenses](#Licenses)
+  -[Contribution](#Contribution)
+  -[Acknowledgement](#Acknowledgement)
+  -[Questions](#Questions)
+
+
 <img src="./assets/images/image.png"/>
 <img src="./assets/images/image-1.png"/>
 
@@ -22,19 +34,20 @@ https://github.com/mackemo/4-personal-blog
 
 ## Installation
 
-N/A
+To install this application, copy the ssh key from my github repo and clone it into your respository.
 
 ## Usage
 
 This site was a practice assignment for bootcamp students but can be used to see how a simple website can be created by inspecting the webpage.
 
-## Credits
-
-N/A
 
 ## License
 
 N/A
+
+## Contribution
+  
+Contact me by email provided in Questions section.
 
 ## Acknowledgement
 
@@ -47,3 +60,11 @@ https://www.w3schools.com/html/html_forms.asp
 https://www.w3schools.com/tags/att_form_method.asp
 
 https://stackoverflow.com/questions/16562577/how-can-i-make-a-button-redirect-my-page-to-another-page
+
+
+## Questions
+
+Contact with questions at:
+  
+Email: mackenzielmoore14@gmail.com
+Click [here](https://github.com/mackemo) for Github account.

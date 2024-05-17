@@ -23,3 +23,6 @@ submitButton.addEventListener('click', function(e) {
         location.href = "blog.html"; 
     }  
 });
+
+
+
